@@ -7,26 +7,40 @@
 }
 .container {
   width: 100%;
-  max-width: 940.6px;
+  max-width: 1000.6px;
   margin: 0 auto;
+  padding: 0 30px;
 }
 a {
   text-decoration: none;
 }
+h2.title {
+  font-family: 'gilroy-bold';
+  text-align: center;
+  font-size: 34px;
+  line-height: 42px;
+}
+p.text {
+  font-family: 'gilroy-medium';
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
 /** fonts */
 @font-face {
-  font-family: 'gilroyextrabold';
-  src: url('../fonts/gilroy-extrabold-webfont.woff2') format('woff2'),
-    url('../fonts/gilroy-extrabold-webfont.woff') format('woff'),
-    url('../fonts/gilroy-extrabold-webfont.ttf') format('truetype');
+  font-family: 'gilroy-bold';
+  src: url('../fonts/gilroy-bold.woff2') format('woff2'),
+    url('../fonts/gilroy-bold.woff') format('woff'),
+    url('../fonts/gilroy-bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
-  font-family: 'gilroylight';
-  src: url('../fonts/gilroy-light-webfont.woff2') format('woff2'),
-    url('../fonts/gilroy-light-webfont.woff') format('woff'),
-    url('../fonts/gilroy-light-webfont.ttf') format('truetype');
+  font-family: 'gilroy-medium';
+  src: url('../fonts/gilroy-medium.woff2') format('woff2'),
+    url('../fonts/gilroy-medium.woff') format('woff'),
+    url('../fonts/gilroy-medium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -39,7 +53,7 @@ header {
   justify-content: space-between;
   list-style: none;
   font-size: 18px;
-  font-family: 'gilroyextrabold';
+  font-family: 'gilroy-bold';
   font-weight: 400;
   border-bottom: 1px solid #828282;
 }
@@ -59,11 +73,76 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  font-family: 'gilroylight';
+  font-family: 'gilroy-medium';
+  margin-top: 40px;
 }
 .full-name {
-  font-family: 'gilroyextrabold';
-
+  font-family: 'gilroy-bold';
   font-size: 47.3392px;
   line-height: 59px;
+}
+.position {
+  font-family: 'gilroy-medium';
+
+  font-size: 18px;
+  line-height: 22px;
+}
+.lang {
+  font-family: 'gilroy-bold';
+  transform-origin: left top;
+  transform: translate(70%, 70%) rotate(-90deg);
+}
+.lang .disactive {
+  color: #828282;
+}
+.full-img-slider {
+  margin-top: 50px;
+  width: 100%;
+}
+.biography {
+  font-family: 'gilroy-medium';
+  font-size: 18px;
+  line-height: 22px;
+  background: #f6f6f6;
+  text-align: center;
+  margin-top: 105px;
+  padding: 120px 0 57px;
+}
+.biography .text {
+  margin: 17.69px 0 40px;
+}
+/**Skills*/
+.skills {
+  margin: 81px 0 100px;
+}
+.skills .text {
+  margin-top: 59px;
+}
+.skills-block {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 78px;
+}
+.skills-block li > img {
+  display: block;
+  margin: 0 auto;
+}
+.skill-name {
+  font-family: 'gilroy-bold';
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
+  margin-top: 23px;
+}
+.stars {
+  margin-top: 41.41px;
+}
+.stars img {
+  margin: 0 4.5px;
+}
+/** Portfolio*/
+.portfolio{
+  background: #F6F6F6;
 }
