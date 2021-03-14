@@ -143,6 +143,18 @@ header {
   margin: 0 4.5px;
 }
 /** Portfolio*/
-.portfolio{
-  background: #F6F6F6;
+.portfolio {
+  background: #f6f6f6;
+  padding: 112px 0 96px;
+}
+.portfolio-list {
+  list-style: none;
+}
+.portfolio-img {
+  width: 100%;
+  display: block;
+  margin: 100px 0 45px;
+}
+.portfolio-link {
+  
 }
