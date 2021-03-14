@@ -147,14 +147,26 @@ header {
   background: #f6f6f6;
   padding: 112px 0 96px;
 }
+.portfolio .title{
+  margin-bottom: 47px;
+}
 .portfolio-list {
   list-style: none;
 }
-.portfolio-img {
+.portfolio-list li .portfolio-img {
   width: 100%;
   display: block;
-  margin: 100px 0 45px;
 }
-.portfolio-link {
-  
+.portfolio-list li .portfolio-link {
+  display: block;
+  width: 50%;
+  font-family: 'gilroy-medium';
+  margin: 44px auto 99px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.portfolio-list li:last-child .portfolio-link{
+  margin-bottom: 0;
 }
